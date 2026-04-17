@@ -53,10 +53,10 @@ local s = isMobile and 0.65 or 1
 -- ============================================================
 local Themes = {
     ["Crimson Red"]     = { P = Color3.fromRGB(220, 20,  60),  L = Color3.fromRGB(255, 60,  90),  D = Color3.fromRGB(150, 15,  40)  },
-    ["Cyberpunk Yellow"]= { P = Color3.fromRGB(255, 215, 0),   L = Color3.fromRGB(255, 235, 100), D = Color3.fromRGB(180, 150, 0)   },
+    ["Cyberpunk Yellow"] = { P = Color3.fromRGB(255, 215, 0),   L = Color3.fromRGB(255, 235, 100), D = Color3.fromRGB(180, 150, 0)   },
     ["Neon Green"]      = { P = Color3.fromRGB(50,  255, 50),  L = Color3.fromRGB(100, 255, 100), D = Color3.fromRGB(20,  180, 20)  },
     ["Royal Purple"]    = { P = Color3.fromRGB(138, 43,  226), L = Color3.fromRGB(170, 80,  255), D = Color3.fromRGB(90,  20,  150) },
-    ["Toxic Neon"]      = { P = Color3.fromRGB(50, 255, 50), L = Color3.fromRGB(100, 255, 100),   D = Color3.fromRGB(20, 185, 20), },
+    ["Toxic Neon"]      = { P = Color3.fromRGB(50, 255, 50), L = Color3.fromRGB(100, 255, 100),   D = Color3.fromRGB(20, 185, 20) },
 }
 
 -- C holds the live color values — mutated by UpdateTheme()
